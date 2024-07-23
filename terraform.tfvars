@@ -1,0 +1,8 @@
+region         = "ap-south-1"
+access_key     = "{{secretkey}}"
+secret_key     = "{{access_key}}"
+ami            = "ami-0c2af51e265bd5e0e"
+instance_type  = "t2.micro"
+vpc_id         = "vpc-0fe2b99ab9a3ee131"
+subnet_id      = "subnet-06fb847c62f4a8868"
+setup_script_path = "./setup.sh"
